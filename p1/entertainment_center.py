@@ -8,7 +8,11 @@ interstellar = media.Movie("Interstellar","Mankind was born on Earth. It was nev
 dark_knight = media.Movie("The Dark Knight","The night is darkest before the dawn.",
 	"http://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
 	"https://www.youtube.com/watch?v=yQ5U8suTUw0")
-
+	
+dark_knight_rises = media.Movie("The Dark Knight Rises", "A Fire Will Rise",
+                                "http://upload.wikimedia.org/wikipedia/en/thumb/8/83/Dark_knight_rises_poster.jpg/220px-Dark_knight_rises_poster.jpg",
+                                "https://www.youtube.com/watch?v=g8evyE9TuYk")	
+	
 
 
 #print interstellar.title
@@ -16,7 +20,7 @@ dark_knight = media.Movie("The Dark Knight","The night is darkest before the daw
 #interstellar.show_trailer()
 #interstellar.show_poster()
 
-movies = [interstellar,dark_knight]
+movies = [interstellar,dark_knight,dark_knight_rises]
 
 fresh_tomatoes.open_movies_page(movies)
 
